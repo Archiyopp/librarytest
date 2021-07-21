@@ -12,6 +12,7 @@ var app = express();
 
 //Set up mongoose connection
 var mongoose = require('mongoose');
+// Mongodb key string, need to get one from mongoDB
 const mongoDB = require('./config');
 mongoose.connect(mongoDB, {
   useNewUrlParser: true,
